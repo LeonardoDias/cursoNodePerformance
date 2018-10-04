@@ -1,4 +1,7 @@
 langue: node_js
-node_js: - "9.10.0"
-services: - mongodb
-env: - NODE_ENV=TEST
+node_js:
+- "9.10.0"
+services:
+- mongodb
+env:
+- NODE_ENV=TEST
