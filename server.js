@@ -11,7 +11,7 @@ mongoose.connect("mongodb://admin:node123@ds217351.mlab.com:17351/cursonode-1312
 let ToDo = require('./models/todo');
 
 app.get('/', function(req, res) {
-	res.send('Hello World!');
+	res.send('Hello Travis, how u doin\'!');
 });
 
 app.get('/todo', function(req,res){
